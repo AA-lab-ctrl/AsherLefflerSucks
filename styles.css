@@ -60,6 +60,5 @@ body {
 }
 
 #asher:hover {
-  transform: scale(1.1); /* Enlarge the image */
-  filter: brightness(1.2) saturate(2) hue-rotate(120deg); /* RGB Color Shift */
+  transform: scale(1.2); /* Enlarge the image */
 }
