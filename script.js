@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Function to create and animate a falling banana
     function createBanana() {
+        banana.style.zIndex = 0;
         const banana = document.createElement('img');
         banana.src = "banana.png"; // Make sure banana.png is in the same folder as index.html
         banana.classList.add('banana');
