@@ -41,7 +41,7 @@ body {
 
 /* Style for falling bananas */
 .banana {
-    z-index = 6;
+    z-index = 0;
     position: absolute;
     width: 50px;
     top: -100px;
@@ -49,6 +49,7 @@ body {
 }
 
 #asher {
+  z-index = 6;
   position: fixed;         /* Fixes the image relative to the viewport */
   bottom: 40px;            /* 20px above the bottom */
   left: 50%;               /* Centers the image horizontally */
