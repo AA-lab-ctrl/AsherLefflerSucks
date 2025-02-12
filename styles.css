@@ -6,6 +6,10 @@ body {
     background-size: 400% 400%;
     animation: gradientBG 10s infinite ease-in-out;
     color: #222;
+    overflow: hidden; /* Prevents scrollbars from appearing */
+    position: relative;
+    height: 100vh;
+    margin: 0;
 }
 
 /* Smooth background color animation */
@@ -35,19 +39,10 @@ body {
     background: #ff3333;
 }
 
-/* Animated falling banana */
+/* Style for falling bananas */
 .banana {
-    width: 100px;
     position: absolute;
-    top: -50px;
-    left: 50%;
-    transform: translateX(-50%);
-    animation: dropBanana 3s infinite;
-}
-
-/* Banana falling animation */
-@keyframes dropBanana {
-    0% { top: -50px; }
-    50% { top: 300px; }
-    100% { top: -50px; }
+    width: 50px;
+    top: -100px;
+    transition: transform 0.5s ease-in-out;
 }
