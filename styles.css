@@ -47,6 +47,11 @@ body {
     transition: transform 0.5s ease-in-out;
 }
 
+#asher:hover {
+  transform: scale(1.1); /* Enlarge the image */
+  filter: brightness(1.2) saturate(2) hue-rotate(120deg); /* RGB Color Shift */
+}
+
 #asher {
   position: fixed;         /* Fixes the image relative to the viewport */
   bottom: 40px;            /* 20px above the bottom */
