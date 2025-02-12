@@ -1,0 +1,46 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    background: linear-gradient(45deg, #ff66b2, #ffcc33, #66ffcc, #6699ff);
+    background-size: 400% 400%;
+    animation: gradientBG 10s infinite ease-in-out;
+    color: #222;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.reason {
+    margin: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px;
+    background: #ff5733;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.reason:hover {
+    transform: rotate(10deg) scale(1.2);
+}
+
+.banana {
+    width: 100px;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: dropBanana 2s infinite;
+}
+
+@keyframes dropBanana {
+    0% { top: -50px; }
+    50% { top: 300px; }
+    100% { top: -50px; }
+}
