@@ -1,3 +1,4 @@
+/* Apply a colorful gradient background */
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     text-align: center;
@@ -7,12 +8,14 @@ body {
     color: #222;
 }
 
+/* Smooth background color animation */
 @keyframes gradientBG {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
 
+/* Style for the clickable reasons */
 .reason {
     margin: 20px;
     font-size: 24px;
@@ -21,24 +24,28 @@ body {
     padding: 15px;
     background: #ff5733;
     border-radius: 15px;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
     color: white;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Add hover effect */
 .reason:hover {
     transform: rotate(10deg) scale(1.2);
+    background: #ff3333;
 }
 
+/* Animated falling banana */
 .banana {
     width: 100px;
     position: absolute;
     top: -50px;
     left: 50%;
     transform: translateX(-50%);
-    animation: dropBanana 2s infinite;
+    animation: dropBanana 3s infinite;
 }
 
+/* Banana falling animation */
 @keyframes dropBanana {
     0% { top: -50px; }
     50% { top: 300px; }
