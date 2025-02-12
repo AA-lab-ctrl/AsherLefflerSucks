@@ -39,5 +39,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Drop bananas every second
-    setInterval(createBanana, 100);
+    setInterval(createBanana, 1);
 });
