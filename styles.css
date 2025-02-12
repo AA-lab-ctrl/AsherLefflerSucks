@@ -61,5 +61,5 @@ body {
 
 #asher:hover {
   transform-origin: center;
-  transform: scale(1.2); /* Enlarge the image */
+  transform: scale(1.2) translateX(-50%); /* Enlarge the image */
 }
