@@ -54,9 +54,9 @@ body {
   transform: translateX(-50%); /* Corrects the centering by shifting left by 50% of its width */
   width: 250px;            /* Adjust the size of the image */
   height: auto;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4)
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
-  transform-origin: left;
+  transform-origin: center;
 }
 
 #asher:hover {
