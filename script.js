@@ -1,4 +1,6 @@
 // Wait for the page to fully load
+banana.src = "https://upload.wikimedia.org/wikipedia/commons/e/ea/Banana.svg";
+
 document.addEventListener('DOMContentLoaded', () => {
     const reasons = document.querySelectorAll('.reason');
 
