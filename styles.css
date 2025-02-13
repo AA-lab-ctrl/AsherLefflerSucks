@@ -53,7 +53,7 @@ body {
   position: fixed;         /* Fixes the image relative to the viewport */
   bottom: 40px;            /* 20px above the bottom */
   left: 50%;               /* Centers the image horizontally */
-  transform: translateX(-50%); /* Corrects the centering by shifting left by 50% of its width */
+  transform: translate(-50%, -50%); /* Corrects the centering by shifting left by 50% of its width */
   width: 250px;            /* Adjust the size of the image */
   height: auto;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
@@ -63,5 +63,5 @@ body {
 
 #asher:hover {
   transform-origin: center;
-  transform: scale(1.2) left: 50%;; /* Enlarge the image */
+  transform: scale(1.2); /* Enlarge the image */
 }
