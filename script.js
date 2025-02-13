@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         banana.style.left = Math.random() * window.innerWidth + 'px';
         banana.style.top = '-100px'; // Start slightly above the screen
         banana.style.width = '50px';
+        banana.style.zIndex = "-1";
 
         document.body.appendChild(banana);
 
