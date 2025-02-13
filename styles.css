@@ -41,7 +41,7 @@ body {
 
 /* Style for falling bananas */
 .banana {
-    z-index = 0;
+    banana.style.zIndex = "-1";
     position: absolute;
     width: 50px;
     top: -100px;
